@@ -17,10 +17,10 @@ export default {
 
 <style lang="less">
   .card-wrapper {
-    width: 375px;
+    width: ~`unit(750)`;
     .word {
       color: red;
-      font-size: 24px;
+      font-size: ~`unit(48)`;
       background: yellow;
     }
   }
